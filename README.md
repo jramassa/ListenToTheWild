@@ -19,10 +19,9 @@ Here are some useful resources related to this project:
 
 [> Related Work](./ressources/ListenToTheWild-Etude-bibliographique.pdf) : This approach summarizes the attempts that are being undertaken, taking into account related works and builds upon a comprehensive literature review. It seeks to contribute to the existing body of knowledge by addressing the specific challenges posed by the analysis of massive datasets of soundscapes in ecological research. 
 
-
 We hope these resources will be helpful to those interested in learning more about our project.
 
-![alt text](image.png)
+![](./img/image.png)
 
 ### Technologies 🧑‍💻
 
