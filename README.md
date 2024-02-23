@@ -21,7 +21,10 @@ Here are some useful resources related to this project:
 
 We hope these resources will be helpful to those interested in learning more about our project.
 
-![](./img/image.png)
+<p align="center">
+  <img src="./img/image.png" />
+</p>
+<!-- ![](./img/image.png) -->
 
 ### Technologies 🧑‍💻
 
