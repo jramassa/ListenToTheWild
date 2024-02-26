@@ -42,6 +42,9 @@ This repository offers an extensive collection of code and data designed to addr
 
 - [supervise](https://github.com/amarmeddahi/sounds-of-nature/tree/main/code "code")
     -  [classification of blue/red estive/lisiere]()
+        - [classification_par_site]()
+            - [classification_par_site.ipynb]() : Classification by creating a classifier per site and temporal segregation to form train and test sets (training on records belonging to the first n-1 days of the site and testing on records belonging to the last day of the site) using scikit-maad acoustic indices.
+            - [vggish_classification_par_site.ipynb]() : Classification by creating a classifier per site and temporal segregation to form train and test sets (training on records belonging to the first n-1 days of the site and testing on records belonging to the last day of the site) using VGGish acoustic indices.
         - [hyperparameter_tuning]()
             - [optimisation_modele_random_forest.ipynb]() : Hyperparameter tuning on Random Forest in order to get the best parameters for the classification but we observe that the results take too many time and was fastidious.
         - [classification_cross_validation.ipynb]() : Temporal segregation (We divide the day into time slots and train on the majority of the time slot, then test on the remainder) and spatial segregation (We divide the data into sites and train on the n-1 sites, then test on the 1 remaining site) using scikit-maad acoustic indices.
