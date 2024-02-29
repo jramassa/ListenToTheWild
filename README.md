@@ -44,7 +44,11 @@ This repository offers an extensive collection of code and data designed to addr
     -  [classification of blue/red estive/lisiere]()
         - [classification_par_site]()
             - [classification_par_site.ipynb]() : Classification by creating a classifier per site and temporal segregation to form train and test sets (training on records belonging to the first n-1 days of the site and testing on records belonging to the last day of the site) using scikit-maad acoustic indices.
+            - [cross_validation_2_classifiers_par_site.ipynb]() : Same as [cross_validation_par_site.ipynb]() but with one classifier for the "Position" and another for the "Dynamique".
+            - [cross_validation_par_site.ipynb]() : Same as [classification_par_site.ipynb]() but with cross validation.
             - [vggish_classification_par_site.ipynb]() : Classification by creating a classifier per site and temporal segregation to form train and test sets (training on records belonging to the first n-1 days of the site and testing on records belonging to the last day of the site) using VGGish acoustic indices.
+            - [vggish_cross_validation_2_classifiers_par_site.ipynb]() : Same as [vggish_cross_validation_par_site.ipynb]() but with one classifier for the "Position" and another for the "Dynamique".
+            - [vggish_cross_validation_par_site.ipynb]() : Same as [vggish_classification_par_site.ipynb]() but with cross validation.
         - [hyperparameter_tuning]()
             - [optimisation_modele_random_forest.ipynb]() : Hyperparameter tuning on Random Forest in order to get the best parameters for the classification but we observe that the results take too many time and was fastidious.
         - [classification_cross_validation.ipynb]() : Temporal segregation (We divide the day into time slots and train on the majority of the time slot, then test on the remainder) and spatial segregation (We divide the data into sites and train on the n-1 sites, then test on the 1 remaining site) using scikit-maad acoustic indices.
