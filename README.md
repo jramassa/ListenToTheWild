@@ -28,7 +28,7 @@ We hope these resources will be helpful to those interested in learning more abo
 
 ### Technologies 🧑‍💻
 
-* [Python - matplotlib, pandas, seaborn, numpy, cartopy]()
+* [Python - matplotlib, pandas, seaborn, numpy, cartopy](https://www.python.org/)
 * [TensorFlow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
 * [scikit-learn](https://scikit-learn.org/stable/)
