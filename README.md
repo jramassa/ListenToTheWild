@@ -154,8 +154,8 @@ And the last year group members of ENSEEIHT, Toulouse INP:
 **Listen To The Wild** communicates with and/or references the following:
 
 - [scikit‐maad](https://github.com/scikit-maad/scikit-maad)
-- [cartopy]()
-- [nextcloud]()
-- [uicn]()
+- [cartopy](https://scitools.org.uk/cartopy/docs/latest/)
+- [nextcloud](https://nextcloud.inrae.fr/apps/user_saml/saml/selectUserBackEnd?redirectUrl=)
+- [uicn](https://www.iucn.org/fr)
 
 We express our gratitude to all their contributors and maintainers!
